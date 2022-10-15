@@ -4,10 +4,10 @@ var CanSee= document.createElement('audio');
 var CanFix = document.createElement('audio');
 var CanYouFeel = document.createElement('audio');
 
-CanSilence.setAttribute('src', 'primary.mp3');
-CanSee.setAttribute('src', 'second.mp3');
-CanFix.setAttribute('src', 'third.mp3');
-CanYouFeel.setAttribute('src', 'four.mp3');
+CanSilence.setAttribute('src', './audios/primary.mp3');
+CanSee.setAttribute('src', './audios/second.mp3');
+CanFix.setAttribute('src', './audios/third.mp3');
+CanYouFeel.setAttribute('src', './audios/four.mp3');
 
 
 
