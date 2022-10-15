@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: rgb(99, 97, 97);
+  }
+
+#gigachad {
+ 
+  width: 700px;
+ 
+  
+  
+}
+.p{
+
+  color:white;
+
+}
+#CanSilence{
+  width: 300px;
+  height: 150px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 3px;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: white;
+  
+}
+#CanSee{
+  width: 300px;
+  height: 150px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 3px;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: white;
+  
+}
+#CanFix{
+  width: 300px;
+  height: 150px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 3px;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: white;
+}
+#CanYouFeel{
+  width: 300px;
+  height: 200px;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 3px;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: white;
+}
