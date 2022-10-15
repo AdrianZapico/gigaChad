@@ -15,7 +15,7 @@ body {
   font-size: 25px;
   cursor: pointer;
   margin: 3px;
-  background-color: rgb(31, 31, 31);
+  background-color:rgb(99, 97, 97);
   border: none;
   color: white;
   
@@ -26,7 +26,7 @@ body {
   font-size: 25px;
   cursor: pointer;
   margin: 3px;
-  background-color: rgb(31, 31, 31);
+  background-color:rgb(99, 97, 97);
   border: none;
   color: white;
   
@@ -37,7 +37,7 @@ body {
   font-size: 25px;
   cursor: pointer;
   margin: 3px;
-  background-color: rgb(31, 31, 31);
+  background-color:rgb(99, 97, 97);
   border: none;
   color: white;
 }
@@ -47,7 +47,22 @@ body {
   font-size: 25px;
   cursor: pointer;
   margin: 3px;
-  background-color: rgb(31, 31, 31);
+  background-color:rgb(99, 97, 97);
   border: none;
   color: white;
+}
+
+#hear{
+width: 400px;
+
+}
+
+#see{
+
+  width: 400px;
+}
+
+#fix{
+
+  width: 400px;
 }
