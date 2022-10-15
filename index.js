@@ -9,6 +9,8 @@ CanSee.setAttribute('src', './audios/second.mp3');
 CanFix.setAttribute('src', './audios/third.mp3');
 CanYouFeel.setAttribute('src', './audios/four.mp3');
 
+$("img").hide()
+
 //canSilenceImage.setAttribute('src',);
 
 $('#CanSilence').on("click",function() {
@@ -17,8 +19,8 @@ $('#CanSilence').on("click",function() {
     CanSee.pause();
     CanSilence.play();
     CanSilence.currentTime = 0;
-    
-    $('#hear').attr('src','./images/canYouHear.png');
+    $('#feel').hide()
+    $('#hear').show();
 
 });
 
@@ -32,8 +34,8 @@ $('#CanSee').click(function() {
     CanSilence.pause();
     CanSee.play();
     CanSee.currentTime = 0
-    
-    $('#see').attr('src','./images/canYouSee.png');
+    $('#feel').hide()
+    $('#see').show();
 
 });
 
@@ -46,8 +48,8 @@ $('#CanFix').click(function() {
     CanSilence.pause();
     CanFix.play();
     CanFix.currentTime = 0
-
-    $('#fix').attr('src','./images/canYouFix.png');
+    $('#feel').hide()
+    $('#fix').show();
 
 });
 
@@ -61,7 +63,8 @@ $('#CanYouFeel').click(function() {
     CanYouFeel.play();
     CanYouFeel.currentTime = 0
 
-    $('#feel').attr('src','./images/gigaChadPuto.png');
+    $('img').hide()
+    $('#feel').show();
     
 });
 
