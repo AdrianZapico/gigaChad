@@ -1,20 +1,22 @@
 
-var canSilence = document.createElement('audio');
+var CanSilence = document.createElement('audio');
 var CanSee= document.createElement('audio');
 var CanFix = document.createElement('audio');
 var CanYouFeel = document.createElement('audio');
-canSilence.setAttribute('src', 'primary.mp3');
+
+CanSilence.setAttribute('src', 'primary.mp3');
 CanSee.setAttribute('src', 'second.mp3');
 CanFix.setAttribute('src', 'third.mp3');
 CanYouFeel.setAttribute('src', 'four.mp3');
 
-$('#CanSilence').click(function() {
+
+
+$('#CanSilence').on("click",function() {
     CanYouFeel.pause();
     CanFix.pause();
     CanSee.pause();
-    canSilence.play();
+    CanSilence.play();
     CanSilence.currentTime = 0;
-    $("#status").text("Status: Playing");
 });
 
 
@@ -23,9 +25,9 @@ $('#CanSee').click(function() {
     CanYouFeel.pause();
     CanFix.pause();
     CanSee.pause();
-    canSilence.pause();
+    CanSilence.pause();
     CanSee.play();
-    $("#status").text("Status: Playing");
+    CanSee.currentTime = 0
 });
 
 
@@ -34,9 +36,9 @@ $('#CanFix').click(function() {
     CanYouFeel.pause();
     CanFix.pause();
     CanSee.pause();
-    canSilence.pause();
+    CanSilence.pause();
     CanFix.play();
-    $("#status").text("Status: Playing");
+    CanFix.currentTime = 0
 });
 
 
@@ -45,9 +47,9 @@ $('#CanYouFeel').click(function() {
     CanYouFeel.pause();
     CanFix.pause();
     CanSee.pause();
-    canSilence.pause();
+    CanSilence.pause();
     CanYouFeel.play();
-    $("#status").text("Status: Playing");
+    CanYouFeel.currentTime = 0
 });
 
 
