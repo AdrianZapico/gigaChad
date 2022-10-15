@@ -48,6 +48,29 @@
         Can you feel, can you feel my heart?
             </h2>
     </button>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyB8w5LIZb4013edfBZL-cYTNuPkZFMYv1I",
+          authDomain: "gigachadcan.firebaseapp.com",
+          projectId: "gigachadcan",
+          storageBucket: "gigachadcan.appspot.com",
+          messagingSenderId: "38638048507",
+          appId: "1:38638048507:web:bcee84da2e3022e1f88c5e",
+          measurementId: "G-3J0J0DZCQG"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>

@@ -18,11 +18,12 @@ $('#CanSilence').on("click",function() {
     CanSilence.play();
     CanSilence.currentTime = 0;
     
-    $('#hear').attr('src','./images/canYouHear.png');
+    $('#hear').attr('src','./images/canYouHear.png').show();
+    
+       
+      
 
 });
-
-
 
 
 $('#CanSee').click(function() {
@@ -33,7 +34,7 @@ $('#CanSee').click(function() {
     CanSee.play();
     CanSee.currentTime = 0
     
-    $('#see').attr('src','./images/canYouSee.png');
+    $('#see').attr('src','./images/canYouSee.png').show();
 
 });
 
@@ -61,9 +62,8 @@ $('#CanYouFeel').click(function() {
     CanYouFeel.play();
     CanYouFeel.currentTime = 0
 
-    $('#feel').attr('src','./images/gigaChadPuto.png');
+    $('#feel').attr('src','./images/gigaChadPuto.png')
     
 });
-
 
 
