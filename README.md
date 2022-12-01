@@ -1,3 +1,3 @@
 # gigaChad
  
-For Funny https://app.netlify.com/sites/canyoufeeltwodotzero/overview
+For Funny https://canyoufeeltwodotzero.netlify.app
